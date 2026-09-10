@@ -11,9 +11,10 @@ class student{
 
     }
     public void showalldata(){
-        System.out.println("Yor name is "+name);
-        System.out.println("Your id will be "+ Id);
-        System.out.println("Your Scetion will be "+section);
+        System.out.println("Yor name is "+name+"\nYour id will be "+ Id+"\n Your Scetion will be "+section);
+        System.out.println("Yor name is "+name+"\tYour id will be "+ Id+"\t Your Scetion will be "+section);
+        //System.out.println("Your id will be "+ Id);
+        // System.out.println("Your Scetion will be "+section);
     }
 }
 
